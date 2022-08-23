@@ -8,7 +8,7 @@
 
 ## Key Features
 
-**Web Design Landing Home Page** is The sample webpage that is Designed with HTML5 and CSS-3.
+**Web Design Landing Home Page** is The sample Responsive webpage that is Designed with HTML5 and CSS-3.
 
 - Introduced with how to use `linear gradient` color property by first time.
 - `linear gradient` color property used for both _buttons_ and _background_.
@@ -16,6 +16,7 @@
   - Francois One
   - Arima
   - Encode Sans
+- Media Queries are used.
 - The website is hosted on _Netlify_.
 
 ## Completion Time
