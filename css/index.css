@@ -9,13 +9,20 @@ body {
     55deg,
     white 0%,
     white 50%,
-    rgb(227, 161, 255) 0%,
+    rgb(227, 161, 255) 50%,
     rgb(227, 161, 255) 100%
   );
+}
+.intro-section {
+  display: flex;
+  flex-direction: column;
 }
 .main-div {
   margin-left: 10px;
   margin-top: 10px;
+}
+.bars {
+  display: none;
 }
 .nav-items {
   margin-left: 350px;
@@ -42,7 +49,7 @@ body {
   width: 100px;
   border-radius: 3rem;
   background: linear-gradient(90deg, #383cc1 0%, #e03b8b 100%);
-  border: 1px solid white;
+  border: 1px solid transparent;
   color: white;
   margin-right: 110px;
   margin-top: -54px;
@@ -76,12 +83,99 @@ body {
   margin-left: 20px;
 }
 
-img[src="./images/intro-img.svg"] {
+.illusion {
   height: 520px;
   width: 1000px;
   margin-left: 250px;
   margin-top: -700px;
 }
-img[src="./images/vector.svg"] {
+.vector-img {
   margin-left: 300px;
+}
+
+@media screen and (max-width: 1060px) {
+  .header-logo {
+    height: 30px;
+  }
+  .nav-items {
+    font-size: 10px;
+    margin-top: -60px;
+  }
+  .nav-item {
+    display: none;
+  }
+  .signin-btn {
+    display: block;
+    float: right;
+    font-size: 10px;
+    width: 90px;
+    margin-top: 30px;
+    margin-right: 65px;
+    position: relative;
+    right: 0;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-section h1 {
+    font-size: 50px;
+  }
+
+  .illusion {
+    height: 420px;
+    width: 700px;
+    margin-right: -80px;
+  }
+  .vector-img {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .illusion {
+    height: 380px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  body {
+    background: linear-gradient(
+      15deg,
+      rgb(227, 161, 255) 00%,
+      rgb(227, 161, 255) 50%,
+      white 50%,
+      white 100%
+    );
+  }
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-section h1 {
+    text-align: center;
+    margin-left: 80px;
+  }
+  .left-section h4 {
+    text-align: center;
+    margin-left: 240px;
+  }
+  .learn-more-btn {
+    margin-left: 300px;
+  }
+  .right-section {
+    margin-top: 200px;
+    margin-left: -200px;
+  }
+
+  .illusion {
+    height: 280px;
+    width: 500px;
+  }
 }

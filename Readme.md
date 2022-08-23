@@ -4,7 +4,7 @@
 
 ![Web Design Landing Page](./Web%20Design%20Home%20Page.png)
 
-**[Click here](https://web-design-landing-page-saya.netlify.app/git) for the live demo of the webspage on [Netlify](https://www.netlify.com/).**
+**[Click here](https://web-design-landing-page-saya.netlify.app/) for the live demo of the webspage on [Netlify](https://www.netlify.com/).**
 
 ## Key Features
 
